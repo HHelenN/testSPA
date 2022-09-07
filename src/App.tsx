@@ -4,7 +4,9 @@ import './App.scss';
 import ItemUser from "./components/ItemUser";
 
 import { Container, Row, Col, Button } from "react-bootstrap";
+import data from "./data/users.json";
 
+console.log(data);
 
 function App() {
   return (
@@ -21,9 +23,9 @@ function App() {
           <Col md={7}>
             <div className="list-users">
               <div className="title">Список пользователей</div>
-              <ItemUser />
-              <ItemUser />
-              <ItemUser />
+              {data.map(item => (
+                <ItemUser />
+              ))}
               <div className="find-users">Найдено 20 пользователей</div>
             </div>
           </Col>

@@ -1,7 +1,7 @@
 
 import { Container, Row } from "react-bootstrap";
 
-function ItemUser() {
+function ItemUser({id, name }) {
   return (
     <div className="item-user">
       <Container>
