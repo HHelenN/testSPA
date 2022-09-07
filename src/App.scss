@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+
+.sort {
+  height: 100vh;
+  padding: 30px;
+  background: #BDBDBD;
+;
+
+    Button {
+      padding: 5px 20px;
+      margin: 5px 0;
+    }
+}
+
+.list-users {
+  padding: 30px;
+  .title {
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .find-users {
+    text-align: right;
+  }
+}
+
+.item-user {
+  .wrapper {
+    background: #F3F3F3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+
+    div {
+      padding: 5px;
+    }
+  }
+  span {
+    opacity: 50%;
+  }
+}
+
